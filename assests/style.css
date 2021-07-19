@@ -43,13 +43,14 @@ body{
 }
 
 .cuerpo{
-    background-color:rgb(255, 238, 0);
+
     min-width:100%;
     max-width:100%;
     align-items: center;
     display:flex;
     justify-content:center;
     flex-direction: column;
+    padding-bottom: 50px;
 
 
 }
@@ -62,18 +63,23 @@ body{
  
 }
 .aviso img{
-    padding-top: 50px;
-    margin:  auto;
-    max-width: 800px;
+   
+    margin: 40px auto;
+    max-width: 46%;
+    border : 4px #878a89 solid;
+    box-shadow: 4px 8px 10px rgb(133, 130, 130) ;
+    border-radius: 10px;
 }
 
 
 .footer{
-    background-color:rgb(255, 51, 0);
-    min-width:100%;
-    max-width:100%;
+    margin: auto;
+    border-top: 1px solid #3a3a3a;
+    min-width:90%;
+    padding-top: 30px;
+    max-width:90%;
     min-height:20vh;
-    max-height:20vh;
+  
 }
 .primeraparte{
 
@@ -86,12 +92,18 @@ body{
     
 }
 .sudaderas{
-    background-color:rgb(194, 87, 87);
+
     margin: 30px;
-    min-width:440px;
+    min-width:330px;
     max-width:440px;
-    min-height:640px;
-    max-height:640px;
+    min-height:550px;
+    max-height:620px;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+.sudaderas img{
+    object-fit: contain;
 }
 
 .color_blanco{
@@ -99,8 +111,53 @@ body{
     color: white;
 }
 .color_black{
-    background-color:#228db8;
+    background-color:#67acc7;
     color: #eaeff1 ;
     border-radius: 10px;
     padding:30px
+}
+
+.prenda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(77, 75, 75);
+    margin:10px
+}
+.precio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    text-align:center;
+}
+
+
+
+.imagen1{
+    background-image: url(./images/poleras/polera1.JPG);
+    object-fit: contain;
+
+}
+.imagen2{
+    background-image: url(./images/poleras/polera2.JPG);
+}
+.imagen3{
+    background-image: url(./images/poleras/polera3.JPG);
+ 
+}
+.imagen4{
+    background-image: url(./images/poleras/polera4.JPG);
+}
+.imagen5{
+    background-image: url(./images/poleras/polera5.JPG);
+}
+.imagen6{
+    background-image: url(./images/poleras/polera6.JPG);
 }
